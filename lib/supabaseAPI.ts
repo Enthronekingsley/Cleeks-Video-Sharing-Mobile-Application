@@ -1,0 +1,2 @@
+export const supabaseUrl = "https://umkczpmlkntounzjnavl.supabase.co"
+export const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVta2N6cG1sa250b3VuempuYXZsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzI4NDc4NDIsImV4cCI6MjA0ODQyMzg0Mn0.9uRuMOEvgu-k7Wfahn6hMIT1uWrcAvLwUwGgi2J29pY"

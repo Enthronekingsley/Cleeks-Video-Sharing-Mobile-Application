@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "cleeks",
+    "slug": "cleeks",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/cleeksIconBlue.png",
+    "scheme": "cleeks",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/images/cleeksIconBlue.png",
+        "backgroundColor": "#000000",
+        "resizeMode": "contain"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#000000"
+      },
+      "splash": {
+        "image": "./assets/images/cleeksIconBlue.png",
+        "backgroundColor": "#000000",
+        "resizeMode": "contain"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": ""
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/cleeksIconBlue.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ],
+      "expo-video"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
